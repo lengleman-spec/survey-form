@@ -12,6 +12,7 @@
     </p>
 
     <form id="survey-form">
+      <!-- User Information -->
       <label for="name">Name</label>
       <input
         type="text"
@@ -32,6 +33,30 @@
 
       <label for="number">Age(optional)</label>
       <input type="number" name="age" id="number" placeholder="Age" />
+
+      <!-- Recommendation Radio Buttons -->
+      <fieldset id="radio-container">
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <input
+          type="radio"
+          name="recommendation"
+          id="definitely"
+          value="definitely"
+          checked
+        />
+        <label for="definitely">Definitely</label>
+
+        <input type="radio" name="recommendation" id="maybe" value="maybe" />
+        <label for="maybe">Maybe</label>
+
+        <input
+          type="radio"
+          name="recommendation"
+          id="not-sure"
+          value="not sure"
+        />
+        <label for="not-sure">Not sure</label>
+      </fieldset>
     </form>
   </body>
 </html>
