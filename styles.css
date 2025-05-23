@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,4 +14,17 @@ body {
       rgba(136, 136, 206, 0.7)
     ),
     url(tech-team.jpg);
+  font-family: "Outfit", sans-serif;
+  color: whitesmoke;
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 18px;
+}
+
+#description {
+  text-align: center;
 }
