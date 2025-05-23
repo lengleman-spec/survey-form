@@ -36,7 +36,23 @@ form {
   background-color: rgba(27, 27, 50, 0.6);
   border-radius: 8px;
   padding: 40px;
-  width: 80%;
-  height: 100vh; /* used vh units to ensure form spans the entire page vertically */
+  width: 65%;
+  height: auto; /* used 'auto' value to ensure form spans the entire page vertically while keeping elements nested within the <form> */
   margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 24px;
+  padding: 8px 0;
+  margin-top: 12px;
+}
+.input-btn {
+  font-size: 18px;
+  padding: 6px 0;
+  margin-bottom: 12px;
+  border: whitesmoke;
+  border-radius: 4px;
 }
