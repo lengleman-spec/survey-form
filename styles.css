@@ -44,10 +44,12 @@ form {
   flex-direction: column;
 }
 
-label {
+label,
+legend {
   font-size: 24px;
   padding: 8px 0;
   margin-top: 12px;
+  display: block;
 }
 .input-btn,
 select {
@@ -56,4 +58,13 @@ select {
   margin-bottom: 12px;
   border: whitesmoke;
   border-radius: 4px;
+}
+
+fieldset {
+  border: 0;
+}
+
+.recs {
+  padding: 4px;
+  margin: 4px 2px;
 }
