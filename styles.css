@@ -49,9 +49,10 @@ label {
   padding: 8px 0;
   margin-top: 12px;
 }
-.input-btn {
+.input-btn,
+select {
   font-size: 18px;
-  padding: 6px 0;
+  padding: 6px 10px;
   margin-bottom: 12px;
   border: whitesmoke;
   border-radius: 4px;
