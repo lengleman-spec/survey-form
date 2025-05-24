@@ -51,6 +51,7 @@ legend {
   margin-top: 12px;
   display: block;
 }
+
 .input-btn,
 select {
   font-size: 18px;
@@ -58,6 +59,12 @@ select {
   margin-bottom: 12px;
   border: whitesmoke;
   border-radius: 4px;
+}
+
+#current-role,
+#favorite-feat {
+  color: #00000081;
+  margin-bottom: 30px;
 }
 
 fieldset {
